@@ -1,5 +1,5 @@
 // GitHub Configuration
-const GITHUB_TOKEN = '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'; // Replace with your token
+const GITHUB_TOKEN = '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'; // Replace with your token
 const REPO_OWNER = 'sofyansalim'; // Replace with your GitHub username
 const REPO_NAME = 'geojson-ics-karya-sembada'; // Replace with your repository name
 const FILE_PATH = 'data.geojson'; // Path to the GeoJSON file in the repository
