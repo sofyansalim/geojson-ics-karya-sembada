@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GeoJSON Editor</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+</head>
+<body>
+  <div id="map"></div>
+  <div id="attributeForm" class="attribute-form">
+    <label>Name: <input type="text" id="name"></label><br>
+    <label>Location: <input type="text" id="location"></label><br>
+    <button id="saveAttributes">Save</button>
+  </div>
+  <button id="saveToGitHub">Save to GitHub</button>
+  <script src="main.js"></script>
+</body>
+</html>

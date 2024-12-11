@@ -1,0 +1,15 @@
+#map {
+    height: 90vh;
+    width: 100%;
+  }
+  
+  .attribute-form {
+    position: absolute;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    display: none;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
